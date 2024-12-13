@@ -1,0 +1,10 @@
+name: two
+
+on:
+  pull_request:
+
+jobs:
+  do-two:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Yes'
