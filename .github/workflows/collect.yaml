@@ -2,9 +2,7 @@ name: collect
 
 on:
   workflow_run:
-    workflows:
-      - one
-      - two
+    workflows: [one, two]
     types: [completed]
 
 jobs:
